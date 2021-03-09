@@ -1,0 +1,18 @@
+[
+    {
+        "id_asignaciones": "1",
+        "nombre_asignacion": "matematicas",
+        "listaAsignaciones": "id_profesor",
+        "usuario_id": "0001",
+        "status_asignacion": "abierto",
+        "precio": "600"
+    },
+    {
+        "id_asignaciones": "2",
+        "nombre_asignacion": "geografia",
+        "listaAsignaciones": "id_profesor",
+        "usuario_id": "0001",
+        "status_asignacion": "cerrado",
+        "precio": "800"
+    }
+]
