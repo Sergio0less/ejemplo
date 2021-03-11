@@ -1,0 +1,17 @@
+[
+    {
+        "id_usuario": "m001",
+        "nombre_usuario": "Gabriel Martines",
+        "email_usuario": "Gabriel.Martines@gmail.com"
+    },
+    {
+        "id_usuario": "m002",
+        "nombre_usuario": "Vanessa Santiago",
+        "email_usuario": "Vanesanti@gmail.com"
+    },
+    {
+        "id_usuario": "m003",
+        "nombre_usuario": "Jaqueline Montes",
+        "email_usuario": "La_Jaqui@cetys.edu.mx"
+    }
+]
