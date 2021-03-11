@@ -1,5 +1,3 @@
-//npm run dev
-
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
@@ -19,3 +17,6 @@ app.use('/api/asignaciones', require('./routes/rutas'));
 app.listen(app.get('port'));
 console.log("mi primer servidor");
 
+/*
+npm run dev
+*/
