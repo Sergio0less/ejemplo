@@ -1,0 +1,12 @@
+[
+    {
+        "id_Asesor" : "01",
+        "nombre_Asesor" : "Juan Morales",
+        "status_Asesor" : "disponible"
+    },
+    {
+        "id_Asesor" : "02",
+        "nombre_Asesor" : "José Mendivil",
+        "status_Asesor" : "ocupado"
+    }
+]
