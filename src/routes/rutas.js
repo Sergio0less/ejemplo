@@ -4,7 +4,7 @@ const router = Router();
     //const express = require('express');
     //const router = express.router;
     
-const asignaciones = require('./data.json');
+const asignaciones = require('./data_asignaciones.json');
 //console.log(asignaciones);
 router.get('/', (req, res) => {
     res.json(asignaciones);
