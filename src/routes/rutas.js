@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     const {id} = req.params;
     asignaciones.forEach(asignacion => {
-        if(asignacion.id_asignaciones == id) {
+        if(asignacion.id_asignaciones == id) { 
             res.json(asignacion);
             //console.log(asignacion.nombre_asignacion);
         }
