@@ -1,8 +1,5 @@
 const {Router} = require('express');
 const router = Router();
-// Tambien puede utilisarse de la siguiente manera:
-    //const express = require('express');
-    //const router = express.router;
     
 const asignaciones = require('../data/data_usuario.json');
 //console.log(asignaciones);
@@ -14,12 +11,12 @@ router.get('/:id', (req, res) => {
     const {id} = req.params;
     asignaciones.forEach(asignacion => {
         if(asignacion.id_usuario == id) { 
-            res.json(asignacion);
-            //console.log(asignacion.nombre_asignacion);
+            res.status(200).json(asignacion);
+            //console.log(asignacion.nombre_usuario);
         }
     });
     
-    //console.log(id);
+    console.log(id);
 });
 
 router.post('/', (req, res) => {
