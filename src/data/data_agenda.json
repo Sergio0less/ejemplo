@@ -1,0 +1,12 @@
+[
+    {
+        "cita_id": "c001",
+        "id_usuario": "m003",
+        "status_asignacion": "abierto"
+    },
+    {
+        "cita_id": "c002",
+        "id_usuario": "m001",
+        "status_asignacion": "abierto"
+    }
+]

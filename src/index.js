@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 //rutas
-app.use('/api/asignaciones', require('./routes/rutas'));
+app.use('/api/asignaciones', require('./routes/ruta_asignaciones'));
 app.use('/api/usuarios', require('./routes/ruta_usuario'));
 
 // Ejecutar server

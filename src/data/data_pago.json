@@ -1,0 +1,14 @@
+[
+    {
+        "pago_id": "p001",
+        "pago_metodo": "Banco",
+        "usuario_id": "m001",
+        "email_usuario": "Gabriel.Martines@gmail.com"
+    },
+    {
+        "pago_id": "p002",
+        "pago_metodo": "MasterCard",
+        "usuario_id": "m002",
+        "email_usuario": "Vanesanti@gmail.com"
+    }
+]

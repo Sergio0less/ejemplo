@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const router = Router();
     
-const asignaciones = require('../data/data_asignaciones.json');
+const asignaciones = require('../data/data_infoAsesor.json');
 router.get('/', (req, res) => {
     res.json(asignaciones);
 });
@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     const {id} = req.params;
     asignaciones.forEach(asignacion => {
-        if(asignacion.id_asignaciones == id) { 
+        if(asignacion.id_Asesor == id) { 
             res.status(200).json(asignacion);
         } 
     });
@@ -18,9 +18,9 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    const {nombre_asignacion, status_asignacion, precio} = req.body;
+    const {nombre_Asesor, status_Asesor} = req.body;
     //console.log(id_asignaciones);
-    if (nombre_asignacion && status_asignacion && precio) {
+    if (nombre_Asesor && status_Asesor) {
         const id = asignaciones.length +1;
         const NuevaAsignacion = {...req.body, id};
         asignaciones.push(NuevaAsignacion);
