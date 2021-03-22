@@ -11,7 +11,10 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 //rutas
+app.use('/api/agendas', require('./routes/ruta_agenda'));
 app.use('/api/asignaciones', require('./routes/ruta_asignaciones'));
+app.use('/api/infoAsesoe', require('./routes/ruta_infoAsesor'));
+app.use('/api/pago', require('./routes/ruta_pago'));
 app.use('/api/usuarios', require('./routes/ruta_usuario'));
 
 // Ejecutar server
